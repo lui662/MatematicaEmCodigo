@@ -12,6 +12,12 @@
     --cor-borda: #89BDB2;
     --cor-ciano: #bafff1;
     --cor-ciano-forte:#00dfb2;
+
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 body, html{
@@ -25,11 +31,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
 }
 
 nav{
