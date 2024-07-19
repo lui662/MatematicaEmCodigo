@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.border{
+    border:1px solid black;
+}
+:root{
+    --cor-preta: black;
+    --cor-azul: rgb(0, 0, 112);
+    --cor-branca: white;
+    --cor-cinza:rgb(241, 241, 241);
+    --cor-risco:#545454;
+    --cor-borda: #89BDB2;
+    --cor-ciano: #bafff1;
+    --cor-ciano-forte:#00dfb2;
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+    
+}
+
+body{
+    background-image:  url("../img/fundo-principal.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    background-color: var(--cor-borda);
+    background-size: contain;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.nav-container {
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+}
+
+#logo {
+    height: 60%;
+}
+
+.nav-container ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 650px;
+    gap: 20px;
+}
+.nav-container li {
+    list-style: none;
+}
+
+.componete-padrao {
+    margin-top: 350px;
+    margin-left: 2%;
+    max-width: 50%; 
+}
+
+.componete-padrao h2, p {
+    color: var(--cor-risco); 
+    content: "";
+    display: inline-block;
+   
+}
+
+.componete-padrao h2 {
+    text-transform: uppercase;
+    font-size: 70px;
+    margin: 5px;
+}
+
+.componete-padrao p {
+    text-align: justify;
+    font-size: 17px;
+    margin: 1px;
+    
+}
+
+
+
+
+/*
+section{
+    padding: 10px;
+    margin-top: 170px;
+    margin-left: 2%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 30%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;  
+}
+
+section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.4;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -2;
+    border-radius: 10px;
+}*/ 
+
+
