@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Open+Sans:ital,wdth,wght@0,87.5,700;1,87.5,700&display=swap');
+
 *{
     box-sizing: border-box;
 }
 
 :root {
-    --cor-da-barra-de-navegacao: #74D1BD;
+    --background-barra-lateral: #74D1BD;
     --cor-dos-botoes: black;
-    --background-botoes: #bafff1;
-    --background-barra-lateral: #559486;
+    --cor-botoes: #bafff1;
+    --background-botoes: #185c4d;
     --backgroud-projetos-2-tela: #74D1BD;
+    --background-cor-de-fundo: #9cdacd;
 }
 
 html{
@@ -24,78 +27,62 @@ body{
     background-repeat: no-repeat;
 }
 
-h1, h2, h3, h4, h5, p, span {
-    margin: 0;
-}
-
 .container{
     max-width: 1920px;
     width: 100%;
 }
 
-/* ESTILIZANDO A PARTE DO HEADER*/
-header{
-    position: relative;
-    top: 0;
-    height: auto;
-    width: 100%;
-}
-/* EDITANDO A NAB-BAR DO SITE*/
-nav{
-    position: fixed;
-    top: 0;
-    height: 100px;
-    width: 100%;
-    z-index: 1;
-    background-color: var(--cor-da-barra-de-navegacao);
-    background-size: contain;
+/* EDITANDO A NAV-BAR DO SITE*/
+.navbar{
     display: flex;
-    justify-content: space-evenly;
+    height: 100px;
+    background-color: var(--background-barra-lateral);
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
-.nav-container {
-    width: 95%;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    display: flex;
+.logo {
+    flex: 15%;
+    margin-left: 5%;
+    /* border: 1px solid black; */
+    text-align: left;
 }
 
-#logo{
-    height: 50%;
+.botoes{
+    flex: 75%;
+    /* border: 1px solid green; */
+    text-align: right;
+    padding: 20px;
+    margin-right: 5%;
 }
 
-/*PARTE AONDE FICA OS BOTOES DO NAVEGADOR*/
-.nav-container ul {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    width: 650px;
-    gap: 20px;
+.logo h1 {
+    font-family: "Alegreya SC", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 23px;
+    color: var(--background-botoes);
 }
 
-.nav-container li {
-    list-style: none;
-}
-
-.nav-container li a{
+.botoes a {
     text-decoration: none;
-    color: var(--cor-dos-botoes);
     background-color: var(--background-botoes);
-    padding: 5px 10px;
-    font-size: 18px;
+    margin: 10px;
+    padding: 7px 15px;
     border-radius: 8px;
-
+    color: var(--cor-botoes);
+    font-weight: 600;
 }
 
-.nav-container li a:hover {
-    background-color: black;
-    padding: 5px 10px;
+.botoes a:hover {
+    background-color: var(--cor-botoes);
+    padding: 7px 15px;
     font-size: 18px;
-    border-radius: 8px;
-    color: white;
+    color: var(--background-botoes);
     transition: 300ms;
+    border: 1px solid var(--background-botoes);
 }
 
 /*A IMAGEM DO BACKGROUND PRA VERSÃO MOBILE*/
@@ -105,83 +92,95 @@ nav{
 
 /*PARA ADAPTAR OS BOTÕES PARA O LAYOUT PRO CELULAR*/ 
 @media screen and (max-width: 600px){
+    .logo {
+        margin-left: 0;
+        text-align: center;
+    } 
+
+    .logo h1 {
+        padding: 0;
+    }
     
-    
+    .botoes {
+        flex: 80%;
+        text-align: center;
+        margin-right: 0;
+        padding: 5px;
+    }
 }
 /*BACKGROUDN DA PRIMEIRA TELA*/
-#main-banner {
+.header {
     display: flex;
-    height: 900px;
     flex-flow: row wrap;
-    margin-top: 100px;
-    max-width: 50%;
-    padding: 25px;
-    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.headline {
+    flex: 45%;
+    margin-left: 5%;
+    /* border: 1px solid black; */
     justify-content: center;
     align-items: center;
 }
- h1{
-    text-align: center;
-    margin-bottom: 10px;
-    font-size: 80px;
- }
 
- p {
-    margin-bottom: 10px;
- }
+.img-headline{
+    flex: 45%;
+    margin-right: 5%;
+    /* border: 1px solid black; */
+    text-align: right;
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: var(--background-botoes);
+    padding: 0;
+    margin: 0;
+}
+
+.headline p {
+    font-weight: 600;
+    margin-top: 8px;
+    text-align: justify;
+}
+
+.headline a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--cor-botoes);
+    border-radius: 8px;
+    border: 1px solid var(--background-botoes);
+    color: var(--background-botoes);
+    padding: 7px 15px;
+    font-weight: 600;
+}
+
+.headline a:hover {
+    background-color: var(--background-botoes);
+    color: var(--cor-botoes);
+    transition: 300ms;
+    font-size: 18px;
+}
 
 @media screen and (max-width:1024px) {
-    #main-banner {
-        max-width: 100%;
-        text-align: justify;
-        align-items: flex-start;
-        height: 600px;
-        font-weight: 400;
+    .headline {
+       margin-left: 2%; 
+       margin-right: 2%;
     }
 
-    #logo-mobile {
-        display: block;
-        max-width: 35%;
-        margin-left: 35%;
+    .img-headline {
+        margin-top: 12px;
+        margin-right: 2%;
+        margin-left: 2%; 
+        text-align: center;
     }
 }
 
 /*SEGUNDA PAGINA DO SITE*/
-.segunda-pagina {
-    margin-top: 10px;
-    background-color: white;
-}
 
-.subtitulo {
-    margin-top: 150px;
-    font-size: 80px;
-    text-align: center;
-    font-weight: 600;
-}
 
-.paragrafo{
-    margin-top: 10px;
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.Div-Pai {
-    display: flex;
-    height: 600px;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.Div-Filho {
-    background-color: var(--backgroud-projetos-2-tela);
-    border: 1px solid black;
-    margin: 5px;
-    padding: 180px;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-}
 
 
 
