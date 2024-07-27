@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Open+Sans:ital,wdth,wght@0,87.5,700;1,87.5,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Bebas+Neue&family=Open+Sans:ital,wdth,wght@0,87.5,700;1,87.5,700&display=swap');
 
 *{
     box-sizing: border-box;
@@ -52,6 +52,7 @@ body{
     margin-left: 5%;
     /* border: 1px solid black; */
     text-align: left;
+    text-transform: uppercase;
 }
 
 .botoes{
@@ -91,13 +92,20 @@ body{
 
 /*PARA ADAPTAR OS BOTÕES PARA O LAYOUT PRO CELULAR*/
 @media screen and (max-width: 1000px){
+    .navbar {
+        height: 150px;
+    }
+
     .logo {
         margin-left: 0;
         text-align: center;
+        /* border: 1px solid black; */
     }
 
     .logo h1 {
         padding: 0;
+        display: inline;
+        /* border: 1px solid black; */
     }
 
     .botoes {
@@ -105,10 +113,12 @@ body{
         text-align: right;
         margin-right: 0;
         padding: 5px;
+        /* border: 1px solid black; */
     }
 }
 
 @media screen and (max-width: 740px){
+    
     .logo {
         margin-left: 0;
         text-align: center;
@@ -152,10 +162,14 @@ body{
 
 .headline h2 {
     font-weight: 900;
-    font-size: 20px;
+    font-size: 35px;
     color: var(--background-botoes);
     padding: 0;
     margin: 0;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #destacado {
@@ -190,7 +204,7 @@ body{
     .headline {
        margin-left: 2%;
        margin-right: 2%;
-       margin-top: 100px;
+       margin-top: 160px;
     }
 
     .img-headline {
@@ -201,7 +215,7 @@ body{
     }
 
     .headline h2 {
-        font-size: 15px;
+        font-size: 25px;
     }
 
     #destacado {
@@ -239,6 +253,10 @@ body{
     margin: 0;
     /* border: 1px solid black; */
     margin-bottom: 15px;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .section-tittle p {
@@ -262,7 +280,7 @@ body{
     margin: 10px;
     background-color: var(--background-botoes);
     color: var(--cor-botoes);
-    padding: 130px;
+    padding: 120px;
     border-radius: 10px;
     font-weight: 600;
     margin-bottom: 10%;
@@ -272,7 +290,7 @@ body{
     border: 1px solid var(--background-botoes);
     background-color: var(--cor-botoes);
     color: var(--background-botoes);
-    padding: 150px;
+    padding: 140px;
     transition: 300ms;
     font-weight: 600;
     font-size: 20px;
