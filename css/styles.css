@@ -280,7 +280,7 @@ body{
     margin: 10px;
     background-color: var(--background-botoes);
     color: var(--cor-botoes);
-    padding: 120px;
+    padding: 100px;
     border-radius: 10px;
     font-weight: 600;
     margin-bottom: 10%;
@@ -290,7 +290,7 @@ body{
     border: 1px solid var(--background-botoes);
     background-color: var(--cor-botoes);
     color: var(--background-botoes);
-    padding: 140px;
+    padding: 120px;
     transition: 300ms;
     font-weight: 600;
     font-size: 20px;
