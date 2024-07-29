@@ -360,10 +360,10 @@ footer {
     border-radius: 8px;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 740px) {
     footer {
-        margin-top: 20%;
-        height: 22vh;
+        margin-top: 25%;
+        height: 200px;
     }
     
     .logo-footer {
@@ -371,7 +371,7 @@ footer {
     }
     
     .logo-f {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .logo-footer img {
