@@ -120,7 +120,7 @@ a{
 
     .botoes {
         flex: 80%;
-        text-align: right;
+        text-align: center;
         margin-right: 0;
         padding: 5px;
         /* border: 1px solid black; */
@@ -207,11 +207,12 @@ a{
     font-size: 18px;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1000px) {
     .headline {
        margin-left: 2%;
        margin-right: 2%;
        margin-top: 160px;
+       margin-bottom: 12vh;
     }
 
     .img-headline {
@@ -237,7 +238,7 @@ a{
     display: flex;
     background-color: rgba(187, 223, 215, 0.5);
     flex-flow: row wrap;
-    margin-top: 20%;
+    margin-top: 40vh;
     justify-content: center;
     align-items: center;
     /* border: 1px solid black; */
@@ -301,6 +302,10 @@ a{
 }
 
 @media screen and (max-width: 740px){
+    .section {
+        margin-top: 35vh;
+    }
+   
     .section-tittle, .nav-projetos{
         margin-left: 2%;
         margin-right: 2%;
