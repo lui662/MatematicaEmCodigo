@@ -290,6 +290,7 @@ a{
     padding: 100px;
     border-radius: 10px;
     margin-bottom: 10%;
+    transition: 300ms;
 }
 
 .nav-projetos a:hover {
