@@ -287,10 +287,11 @@ a{
     margin: 10px;
     background-color: var(--background-botoes);
     color: var(--cor-botoes);
-    padding: 100px;
     border-radius: 10px;
     margin-bottom: 10%;
     transition: 300ms;
+    width: 200px; 
+    height: 200px;
 }
 
 .nav-projetos a:hover {
