@@ -76,6 +76,7 @@ a{
     padding: 7px 15px;
     border-radius: 8px;
     color: var(--cor-botoes);
+    transition: 300ms;
 }
 
 .botoes a:hover {
@@ -157,6 +158,7 @@ a{
     border: 1px solid var(--background-botoes);
     color: var(--background-botoes);
     padding: 7px 15px;
+    transition: 300ms;
 }
 
 .headline a:hover {
