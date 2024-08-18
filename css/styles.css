@@ -250,6 +250,7 @@ a{
 .nav-projetos a {
     background-color: var(--background-botoes);
     color: var(--cor-botoes);
+<<<<<<< HEAD
     display: flex;
     align-items: center;
     justify-content: center;
@@ -258,6 +259,12 @@ a{
     flex-direction: column;
     border-radius: 7px;
     transition: .5s;
+=======
+    border-radius: 10px;
+    margin-bottom: 10%;
+    transition: 300ms;
+    padding: 100px;
+>>>>>>> 14510f90dfe5a9b1452fddb84c319323c3877f3d
 }
 
 .nav-projetos a:hover {
