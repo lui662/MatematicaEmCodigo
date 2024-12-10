@@ -48,6 +48,7 @@ a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     position: fixed;
     top: 0;
+    z-index: 10;
 }
 
 .icon-logo {
@@ -149,7 +150,6 @@ a {
 .headline p {
     margin-top: 8px;
     text-align: justify;
-    
 }
 
 .headline a {
