@@ -65,6 +65,10 @@ a {
     /* border: 1px solid black; */
 }
 
+.logo a {
+    text-decoration: none;
+}
+
 .botoes {
     display: flex;
     gap: 1em;
@@ -160,6 +164,7 @@ a {
     color: var(--background-botoes);
     padding: 7px 15px;
     transition: 300ms;
+
 }
 
 .headline a:hover {
