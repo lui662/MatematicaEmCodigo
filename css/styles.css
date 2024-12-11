@@ -27,7 +27,7 @@ body {
     background-repeat: no-repeat;
 }
 
-a {
+.a {
     text-decoration: none;
 }
 
@@ -164,7 +164,6 @@ a {
     color: var(--background-botoes);
     padding: 7px 15px;
     transition: 300ms;
-
 }
 
 .headline a:hover {
@@ -356,4 +355,45 @@ footer #logo-if img {
     width: 100%;
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.card {
+    margin-top: 7%;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background-color: #185c4d;
+}
+
+.nav-link {
+    color: #185c4d;
+}
+
+.nav-link:hover {
+    color: var(--backgroud-projetos-2-tela);
+}
+
+.btn-primary {
+    background-color: #185c4d;
+    border-color: #185c4d;
+}
+
+.btn-primary:hover {
+    border-color: var(--backgroud-projetos-2-tela);
+    background-color: var(--backgroud-projetos-2-tela);
+    color: black;
+}
+
+.text-decoration-paragrafo {
+    text-transform: uppercase;
+    color: #185c4d;
+    font-weight: bolder;
+}
+
+.text-decoration-title {
+    color: #185c4d;
+    text-transform: uppercase;
+    font-size: 70px;
+    margin: 15px 15px;
 }
