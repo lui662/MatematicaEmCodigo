@@ -4,7 +4,8 @@ com o objetivo de ensinar lógica de programação de forma prática e acessíve
 
 Além disso, busca fortalecer o aprendizado dos conceitos matemáticos, 
 oferecendo uma abordagem integrada que conecta a programação à matemática. 
-![Captura de tela 2024-12-11 084834](https://github.com/user-attachments/assets/e5f783d9-9328-48af-8ea8-2c8b41c3a01b)
+![Captura de tela 2024-12-11 201735](https://github.com/user-attachments/assets/66316420-c93f-4f70-ae60-be372a816ca9)
+
 
 Dessa maneira, os participantes podem desenvolver tanto habilidades técnicas quanto um entendimento mais profundo de alguns fundamentos matemáticos.
 ![Captura de tela 2024-12-11 201216](https://github.com/user-attachments/assets/1e07e886-6ea9-4577-a382-b7db671e31fd)
