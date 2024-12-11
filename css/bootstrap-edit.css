@@ -1,0 +1,23 @@
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background-color: #185c4d;
+}
+
+.nav-link {
+    color: #185c4d;
+}
+
+.nav-link:hover {
+    color: var(--backgroud-projetos-2-tela);
+}
+
+.btn-primary {
+    background-color: #185c4d;
+    border-color: #185c4d;
+}
+
+.btn-primary:hover {
+    border-color: var(--backgroud-projetos-2-tela);
+    background-color: var(--backgroud-projetos-2-tela);
+    color: black;
+}

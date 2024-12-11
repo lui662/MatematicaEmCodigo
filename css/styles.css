@@ -357,34 +357,6 @@ footer #logo-if img {
     border-top-right-radius: calc(0.25rem - 1px);
 }
 
-.card {
-    margin-top: 7%;
-}
-
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-    background-color: #185c4d;
-}
-
-.nav-link {
-    color: #185c4d;
-}
-
-.nav-link:hover {
-    color: var(--backgroud-projetos-2-tela);
-}
-
-.btn-primary {
-    background-color: #185c4d;
-    border-color: #185c4d;
-}
-
-.btn-primary:hover {
-    border-color: var(--backgroud-projetos-2-tela);
-    background-color: var(--backgroud-projetos-2-tela);
-    color: black;
-}
-
 .text-decoration-paragrafo {
     text-transform: uppercase;
     color: #185c4d;
@@ -396,4 +368,18 @@ footer #logo-if img {
     text-transform: uppercase;
     font-size: 70px;
     margin: 15px 15px;
+}
+
+.text-aling-formatter {
+    text-align: left;
+}
+
+@media screen and (min-width: 375px) and (max-width: 450px) {
+    .text-decoration-title {
+        font-size: 40px;
+    }
+
+    .text-aling-formatter {
+        text-align: justify;
+    }
 }
