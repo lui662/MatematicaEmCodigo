@@ -17,7 +17,10 @@
 }
 
 .btn-primary:hover {
-    border-color: var(--backgroud-projetos-2-tela);
+    border-color: #185c4d;
     background-color: var(--backgroud-projetos-2-tela);
     color: black;
+
+    transform: scale(1.1);
+    transition: 300ms;
 }
