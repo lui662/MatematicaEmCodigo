@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+hmtl {
+    scroll-behavior: smooth;
+}
+
 :root {
     --background-barra-lateral: #74d1bd;
     --cor-dos-botoes: black;
@@ -109,6 +113,10 @@ body {
     .logo h1 {
         font-size: 6vw;
     }
+}
+
+#idNav-projetos {
+    transition: 400ms;
 }
 
 /*BACKGROUDN DA PRIMEIRA TELA*/
